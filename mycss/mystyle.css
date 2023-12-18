@@ -1,0 +1,197 @@
+body {
+  background-image: url(./image/266686406_878941699453811_1134060454827957915_n.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+nav {
+  margin-bottom: 100px;
+  background-color: green;
+  height: auto;
+}
+
+.navbar {
+  background-color: green;
+  color: white;
+}
+
+.navbar-nav {
+  gap: 40px;
+  font-size: 20px;
+}
+
+.collapse, .navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.container-fluid {
+  color: white;
+  font-weight: 700;
+}
+
+.container-fluid  .navbar-brand {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.home-p {
+  text-align: center;
+  padding: 0px 20px;
+  background-color: rgba(255, 255, 255, 0.431);
+  border: 3px solid black;
+  
+}
+
+.it {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  color: black;
+}
+
+.button,
+.input,
+.select,
+.textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.bsit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 150px;
+}
+.bsit-container {
+  max-height: 500px;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.493);
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(16, 82, 16);
+  font-size: 20px;
+  padding: 1%;
+  border: 4px solid gold;
+  color: white;
+}  
+
+@media (max-width: 600px) {
+  .modal-container {
+    width: 90%;
+  }
+}
+
+.bsit-container-header {
+  padding: 19px 32px;
+  display: flex;
+  gap: 20px;
+  
+ 
+}
+
+.prof{
+  width: 200px;
+  height: 175px;
+  border: 2px solid black;
+}
+
+.prof1{
+  width: 270px;
+  height: 175px;
+  border: 2px solid black;
+}
+
+.prof2{
+  width: 215px;
+  height: 175px;
+  border: 2px solid black;
+}
+
+.bsit-container-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 1.525rem;
+  
+}
+
+.bsit-container-title svg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #750550;
+}
+
+.bsit-container-body {
+  padding: 0px 32px 51px;
+  overflow-y: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
+
+  .container-fluid  .navbar-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .bsit-container {
+    width: 300px;
+    height: 400px;
+  }
+
+  .prof{
+    width: 100px;
+    height: 125px;
+    border: 2px solid black;
+  }
+  
+  .prof1{
+    width: 170px;
+    height: 105px;
+    border: 2px solid black;
+  }
+  
+  .prof2{
+    width: 115px;
+    height: 125px;
+    border: 2px solid black;
+  }
+}
+
+
+
